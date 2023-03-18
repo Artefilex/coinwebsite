@@ -32,11 +32,12 @@ const Navbar = () => {
         <p>Sign in</p>
         <button > Sign up</button>
       </div>
-      <div className='gbt3__navbar-menu'></div>
+      <div className='gbt3__navbar-menu'>
      {toggleMenu  
      ? <RiCloseLine color = "#fff" size = {27} onClick ={()=> setToggleMenu(false)} /> 
      : <RiMenu3Line color = "#fff" size = {27} onClick ={()=> setToggleMenu(true)} />
     }
+    </div>
     {toggleMenu && (
       <div className='gbt3__navbar-menu_container scale-up-center'>
         <div className='gbt3__navbar-menu_container-links'>

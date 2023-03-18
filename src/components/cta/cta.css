@@ -1,0 +1,71 @@
+.gbt3__cta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    margin: 4rem;
+    border-radius: 1rem;
+    background:  var(--gradient-bar);
+}
+
+.gbt3__cta-content p{
+   font-family: var(--font-family);
+   font-size: 12px;
+   line-height: 30px;
+   font-weight: 500;
+   color: #0E0E0E;
+}
+.gbt3__cta-content h3 {
+    font-family: var(--font-family);
+    font-size: 24px;
+    line-height: 45px;
+    font-weight: 800;
+    color: #0E0E0E;
+    margin-left: 2rem;
+}
+.gbt3__cta-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+
+}
+
+.gbt3__cta-btn button{
+    background-color: #000000;
+    font-family: var(--font-family);
+    font-weight: 800;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    color: #f0f8ff;
+    font-size: 18px;
+    line-height: 30px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    min-width: 150px;
+}
+@media screen  and(max-width:650px) {
+ .gbt3__cta{
+    flex-direction: column;
+ }    
+
+ .gbt3__cta-btn{
+    margin: 2rem 0 0;
+ }
+}
+
+@media screen  and(max-width:550px){
+    .gbt3__cta{
+        margin: 4rem 2rem;
+     }    
+     .gbt3__cta-content h3 {
+        font-size: 18px;
+        line-height: 32px;
+     }
+     .gbt3__cta-btn button {
+        font-size: 14px;
+        line-height: 28px;
+     }
+}
